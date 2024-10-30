@@ -36,6 +36,7 @@
 .header__theme-menu {
   grid-area: menu;
   padding: inherit;
+  justify-self: center;
 }
 
 .header__title {
@@ -91,10 +92,6 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
-}
-
-.header__theme-menu {
-  justify-self: center;
 }
 
 .header__theme-menu-list {
