@@ -2,3 +2,78 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --title-font: 157px;
+  --main-font-size: 18px;
+  --main-font-family: "IBM Plex Mono", Menlo, Courier, monospace;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --cover-image: url("../images/cover-image-dark.png");
+  --header-article-text-color: #000028;
+  --theme-background-image: ;
+  --page-padding: 20px;
+  --decorative-position: 20px;
+  --main-line-height: 23.4px;
+  --main-text-color: #f1b2ce;
+  --page-gap: 60px;
+  --decorated-zone-color: var(--accent-color);
+  --menu-button-color: var(--accent-color);
+  --subheader-color: var(--accent-color);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --page-width: 1024px;
+    --header-height: 728px;
+    --title-font: 157px;
+    --header-article-width: 491px;
+    --header-title-line-height: 129.53px;
+    --decorative-position: 0px;
+    --title-margin-left: -22px;
+    --footer-height: 728px;
+    --page-gap: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --page-width: 768px;
+    --header-height: 984px;
+    --title-font: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --header-article-width: 364px;
+    --header-title-line-height: 99px;
+    --decorative-position: 0px;
+    --title-margin-left: -22px;
+    --footer-height: 984px;
+    --page-gap: 60px;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  :root {
+    --title-font: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header-article-width: 355px;
+    --header-title-line-height: 95.7px;
+    --header-height: 648px;
+    --decorative-position: 0px;
+    --title-margin-left: -0px;
+    --page-padding: 10px;
+    --header-height: 667px;
+    --page-width: 375px;
+    --footer-height: 648px;
+    --page-gap: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  :root {
+    --title-font: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header-article-width: 355px;
+    --header-title-line-height: 95.7px;
+    --header-height: 648px;
+    --decorative-position: 0px;
+    --title-margin-left: -0px;
+    --page-padding: 10px;
+    --page-width: 375px;
+    --footer-height: 648px;
+  }
+}
