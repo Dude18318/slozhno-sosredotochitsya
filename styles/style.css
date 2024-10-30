@@ -17,6 +17,7 @@
   grid-template-areas: "header" "main" "footer";
 }
 
+
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
