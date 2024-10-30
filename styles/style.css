@@ -15,6 +15,7 @@
   gap: var(--page-gap);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "header" "main" "footer";
+  background-color: var(--background-color);
 }
 
 
