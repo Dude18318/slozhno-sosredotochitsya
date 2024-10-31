@@ -1,12 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 body { 
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  inline-size: var(--page-width);
   block-size: 100vh;
   background-image: var(--cover-image);
   background-attachment: fixed;
@@ -560,6 +559,7 @@ body {
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--menu-button-color);
+
 }
 
 .header__theme-menu-button:focus {
