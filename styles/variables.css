@@ -11,8 +11,6 @@
   --cover-image: url("../images/cover-image-dark.png");
   --header-article-text-color: #000028;
   --theme-background-image: ;
-  --decorative-position-sides: 20px;
-  --decorative-position-top-bottom: 20px;
   --main-line-height: 23.4px;
   --main-text-color: #f1b2ce;
   --page-gap: 60px;
@@ -30,7 +28,6 @@
     --title-font: 157px;
     --header-article-width: 491px;
     --header-title-line-height: 129.53px;
-    --decorative-position-sides: 0px;
     --title-margin-left: -15px;
     --footer-height: 728px;
     --page-gap: 60px;
@@ -45,7 +42,6 @@
     --page-padding:20px;
     --header-article-width: 364px;
     --header-title-line-height: 99px;
-    --decorative-position-sides: 0px;
     --title-margin-left: -22px;
     --footer-height: 984px;
     --page-gap: 60px;
@@ -57,8 +53,6 @@
     --header-article-width: 355px;
     --header-title-line-height: 95.7px;
     --header-height: 648px;
-    --decorative-position-sides: 0px;
-    --decorative-position-top-bottom: 10px;
     --title-margin-left: -0px;
     --page-padding: 0px 10px;
     --header-height: 667px;
@@ -74,8 +68,6 @@
     --header-article-width: 355px;
     --header-title-line-height: 95.7px;
     --header-height: 648px;
-    --decorative-position-sides: 0px;
-    --decorative-position-top-bottom: 10px;
     --title-margin-left: -0px;
     --page-padding: 10px;
     --page-width: 375px;
