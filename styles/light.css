@@ -21,10 +21,17 @@
   .decorative_tag {
     display: none;
   }
-
+  .page {
+    background-color:  #FFF1F7;
+    ;
+   }
   .header__theme-menu-button_active {
     border: 1px solid #353430;
   }
+
+}
+
+.page.theme_dark {
 
 }
 @media (prefers-color-scheme: light) {
