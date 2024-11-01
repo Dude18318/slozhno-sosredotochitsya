@@ -9,9 +9,9 @@
   --background-color: #000028;
 }
 
-@media (prefers-color-scheme: dark) {   
+@media (prefers-color-scheme: dark) {
   :root {
-  --cover-image: url("../images/cover-image-dark.png");
-  --background-color: #000028;
+      --cover-image: url("../images/cover-image-dark.png");
+      --background-color: #000028;
   }
-  }
+}
