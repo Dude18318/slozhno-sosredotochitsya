@@ -18,22 +18,18 @@
   --decorated-zone-color: #353430;
   --menu-button-color: #353430;
   --subheader-color: #353430;
+  --background-color: #FFF1F7;
   .decorative_tag {
     display: none;
   }
-  .page {
-    background-color:  #FFF1F7;
-    ;
-   }
+  
+   
+   
   .header__theme-menu-button_active {
     border: 1px solid #353430;
   }
-
 }
 
-.page.theme_dark {
-
-}
 @media (prefers-color-scheme: light) {
   :root {
   --cover-image: url("../images/cover-image-light.png");
@@ -43,6 +39,7 @@
   --decorated-zone-color: #353430;
   --menu-button-color: #353430;
   --subheader-color: #353430;
+  --background-color: #FFF1F7;
   .decorative_tag {
     display: none;
   }
