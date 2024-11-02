@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  block-size: max( var(--min-height),100vh );
+  block-size: max(var(--min-height), 100vh);
   background-image: var(--cover-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-areas: "menu" "title" "article";
-  block-size: max( var(--min-height),100vh );
+  block-size: max(var(--min-height), 100vh);
   inline-size: 100%;
   grid-area: header;
   position: relative;
@@ -88,7 +88,7 @@
 
 .header__theme-menu-button_active {
   border: var(--button-border);
-  pointer-events: none ;
+  pointer-events: none;
 }
 
 .header__theme-menu-list {
@@ -101,7 +101,7 @@
 .decorative_tag {
   position: absolute;
   top: var(--page-padding);
-  right: calc( var(--page-padding) + 8px );
+  right: calc(var(--page-padding) + 8px);
   font-size: var(--main-font-size);
   line-height: 25px;
   display: inline-block;
@@ -110,7 +110,7 @@
 
 @media (max-width: 375px) {
   .decorative_tag {
-      right: calc( var(--page-padding) + 8px );
+      right: calc(var(--page-padding) + 8px);
   }
 }
 .decorative_tag::after {
@@ -172,9 +172,9 @@
 }
 
 .content-section {
- display: grid;
- line-height: var(--main-line-height);
- color: var(--main-text-color);
+  display: grid;
+  line-height: var(--main-line-height);
+  color: var(--main-text-color);
 }
 
 @media (min-width: 1024px) {
@@ -184,7 +184,7 @@
       grid-template-areas:
           "header1 header2 header3"
           "list list list";
-          row-gap: 20px;
+      row-gap: 20px;
   }
 
   .innatention_causes-list {
@@ -205,7 +205,7 @@
       grid-template-areas:
           "header1 header2 header3"
           "list list list";
-      row-gap:20px;
+      row-gap: 20px;
   }
 
   .innatention_causes-topic {
@@ -249,14 +249,13 @@
   font-size: var(--main-font-size);
 }
 .card__text {
- display: block;
+  display: block;
 }
 
 @media (max-width: 1023px) {
   .header__theme-menu {
       justify-self: flex-end;
       align-self: center;
-     
   }
 
   .header__theme-menu-list {
@@ -292,7 +291,7 @@
           "header content content"
           "header content content";
       row-gap: 21px;
-      column-gap:17px;
+      column-gap: 17px;
   }
   .innatention_solving-topic {
       grid-area: header;
@@ -330,8 +329,8 @@
 }
 
 @media (max-width: 767px) {
-  .innatention_solving { 
-  row-gap: 19px ;
+  .innatention_solving {
+      row-gap: 19px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -355,7 +354,7 @@
 @media (max-width: 375px) {
   .innatention_difficulty {
       grid-template-columns: 1fr;
-      row-gap:20px
+      row-gap: 20px;
   }
 }
 
@@ -456,7 +455,6 @@
       grid-template-rows: 142px 355px 237px 355px 237px;
       gap: 10px;
   }
-
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .sunset {
@@ -482,7 +480,7 @@
 
 .footer {
   position: relative;
-  block-size: max( var(--min-height),100vh );
+  block-size: max(var(--min-height), 100vh);
   display: flex;
   justify-content: center;
   align-items: center;
