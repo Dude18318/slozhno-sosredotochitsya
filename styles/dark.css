@@ -8,12 +8,28 @@
   --cover-image: url("../images/cover-image-dark.png");
   --button-border: 1px solid var(--accent-color);
   --background-color: #000028;
+  --title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --header-article-text-color: #000028;
+  --subheader-color: #ff0070;
+  --menu-button-color:  #ff0070;
+  --decorated-zone-color:  #ff0070;
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --cover-image: url("../images/cover-image-dark.png");
-      --background-color: #000028;
-      --button-border: 1px solid var(--accent-color);
+    --cover-image: url("../images/cover-image-dark.png");
+    --button-border: 1px solid var(--accent-color);
+    --background-color: #000028;
+    --title-color: #DB00FF;
+    --accent-color: #ff0070;
+    --main-text-color: #f1b2ce;
+    --header-article-text-color: #000028;
+    --subheader-color: #ff0070;
+    --menu-button-color:  #ff0070;
+    --decorated-zone-color:  #ff0070;
+  
   }
 }

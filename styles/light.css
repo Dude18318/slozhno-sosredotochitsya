@@ -30,7 +30,7 @@
   .header__theme-menu-button_active {
     border: var(--button-border);
   }
-
+}
   @media (prefers-color-scheme: light) {
     :root {
     --cover-image: url("../images/cover-image-light.png");
@@ -40,6 +40,7 @@
     --decorated-zone-color: #353430;
     --header-article-text-color: #353430;
     --menu-button-color: #353430;
+    --button-border:1px solid #353430;
     --subheader-color: #353430;
     --background-color: #FFF1F7;
     .decorative_tag {
@@ -50,5 +51,5 @@
       border: var(--button-border);
     }
   }
-}
+
 
