@@ -16,7 +16,7 @@
   --page-gap: 60px;
   --decorated-zone-color: var(--accent-color);
   --menu-button-color: var(--accent-color);
-  --subheader-color: var(--accent-color);
+  --subheader-color: var(--accent-color); 
 
 }
 
@@ -28,9 +28,10 @@
     --title-font: 157px;
     --header-article-width: 491px;
     --header-title-line-height: 129.53px;
-    --title-margin-left: -15px;
+    --title-margin-left: -21px;
     --footer-height: 728px;
     --page-gap: 60px;
+    --min-height:768px;
   }
 }
 
@@ -45,6 +46,7 @@
     --title-margin-left: -22px;
     --footer-height: 984px;
     --page-gap: 60px;
+    --min-height:1024px;
   }
 }
 @media (min-width: 375px) and (max-width: 767px) {
@@ -54,11 +56,12 @@
     --header-title-line-height: 95.7px;
     --header-height: 648px;
     --title-margin-left: -0px;
-    --page-padding: 0px 10px;
+    --page-padding: 10px;
     --header-height: 667px;
     --page-width: 375px;
     --footer-height: 648px;
     --page-gap: 30px;
+    --min-height:668px;
   }
 }
 

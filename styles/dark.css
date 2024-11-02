@@ -6,6 +6,7 @@
 
 .page.theme_dark {
   --cover-image: url("../images/cover-image-dark.png");
+  --button-border: 1px solid var(--accent-color);
   --background-color: #000028;
 }
 
@@ -13,5 +14,6 @@
   :root {
       --cover-image: url("../images/cover-image-dark.png");
       --background-color: #000028;
+      --button-border: 1px solid var(--accent-color);
   }
 }
