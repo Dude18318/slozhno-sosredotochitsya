@@ -2,7 +2,8 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  block-size: max(var(--min-height), 100vh);
+  min-height: var(--min-height);
+  height: 100vh;
   background-image: var(--cover-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,6 +63,10 @@
   font-weight: 700;
 }
 
+.header__theme-menu-button_active {
+  border: var(--button-border);
+}
+
 @media (max-width: 767px) {
   .header__topic {
       margin-bottom: 0px;
@@ -72,7 +77,13 @@
   background-color: var(--accent-color);
   color: var(--header-article-text-color);
   font-size: var(--main-font-size);
+  font-weight:bold;
 }
+
+.innatention_solving-list .title_decor  {
+  font-weight: normal;
+}
+
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
@@ -284,7 +295,7 @@
       grid-template-columns: 1fr 2fr;
       grid-template-rows: repeat(6, auto);
       grid-template-areas:
-          "header content content"
+          "header subheader subheader"
           "header content content"
           "header content content"
           "header content content"
@@ -298,6 +309,11 @@
   }
   .innatention_solving-list {
       grid-area: content;
+      font-weight: 400;
+  }
+
+  .advice_subheader {
+    grid-area: subheader;   
   }
 }
 
@@ -306,23 +322,27 @@
       grid-template-columns: 1fr 2fr;
       grid-template-rows: repeat(6, auto);
       grid-template-areas:
-          "header content"
+          "header subheader"
           "header content"
           "header content"
           "header content"
           "header content"
           "header content";
       row-gap: 21px;
-      column-gap: 10px;
+      column-gap: 20px;
   }
+
   .innatention_solving-topic {
       grid-area: header;
   }
+
   .innatention_solving-list {
-      grid-area: content;
-      padding-left: 10px;
+      grid-area: content;  
   }
 
+  .advice_subheader {
+    grid-area: subheader;   
+  }
   .innatention_solving-list-item:not(:first-child) {
       font-weight: 400;
   }
@@ -497,20 +517,43 @@
   line-height: var(--header-title-line-height);
 }
 
-.header__theme-menu-button:hover {
-  border: 1px solid var(--menu-button-color);
-}
+
 
 .header__theme-menu-button:focus {
   outline: none;
   border-bottom: 1px solid var(--menu-button-color);
 }
 
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--menu-button-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--menu-button-color);
+}
+
 .useful_link:focus {
   outline: 1px solid var(--main-text-color);
   display: inline-block;
-  line-height: 12px;
+  line-height: 14px;
 }
+
+.useful_link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+  display: inline-block;
+  line-height: 14px;
+}
+
+.useful_link:hover {
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+
+
+
+
+
 
 .decorated-zone::after {
   position: absolute;
