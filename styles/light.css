@@ -37,6 +37,11 @@
     --subheader-color: #353430;
     --background-color: #FFF1F7;
     }
+    .page.theme_auto {
+      .decorative_tag {
+        display: none;
+      }
+    } 
   }
 
 

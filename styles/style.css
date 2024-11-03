@@ -63,10 +63,6 @@
   font-weight: 700;
 }
 
-.header__theme-menu-button_active {
-  border: var(--button-border);
-}
-
 @media (max-width: 767px) {
   .header__topic {
       margin-bottom: 0px;
@@ -77,10 +73,10 @@
   background-color: var(--accent-color);
   color: var(--header-article-text-color);
   font-size: var(--main-font-size);
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.innatention_solving-list .title_decor  {
+.innatention_solving-list .title_decor {
   font-weight: normal;
 }
 
@@ -313,7 +309,7 @@
   }
 
   .advice_subheader {
-    grid-area: subheader;   
+      grid-area: subheader;
   }
 }
 
@@ -337,11 +333,11 @@
   }
 
   .innatention_solving-list {
-      grid-area: content;  
+      grid-area: content;
   }
 
   .advice_subheader {
-    grid-area: subheader;   
+      grid-area: subheader;
   }
   .innatention_solving-list-item:not(:first-child) {
       font-weight: 400;
@@ -517,8 +513,6 @@
   line-height: var(--header-title-line-height);
 }
 
-
-
 .header__theme-menu-button:focus {
   outline: none;
   border-bottom: 1px solid var(--menu-button-color);
@@ -548,12 +542,6 @@
 .useful_link:hover {
   border-bottom: 1px solid var(--main-text-color);
 }
-
-
-
-
-
-
 
 .decorated-zone::after {
   position: absolute;
