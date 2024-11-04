@@ -40,6 +40,7 @@
 .header__title {
   grid-area: title;
   font-family: var(--main-font-family);
+  font-weight: 700;
   font-style: normal;
   padding: 0;
   font-size: var(--title-font);
@@ -507,6 +508,7 @@
   font-family: var(--main-font-family);
   font-style: normal;
   padding: 0;
+  font-weight: 700 ;
   font-size: var(--title-font);
   color: var(--title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
