@@ -15,6 +15,7 @@
   --subheader-color: #ff0070;
   --menu-button-color:  #ff0070;
   --decorated-zone-color:  #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
   
 }
 
@@ -30,5 +31,6 @@
     --subheader-color: #ff0070;
     --menu-button-color:  #ff0070;
     --decorated-zone-color:  #ff0070;
+    --button-hover-color: rgba(255, 0, 112, 0.4);
   }
 }

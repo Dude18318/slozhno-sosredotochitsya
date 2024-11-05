@@ -4,7 +4,6 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   min-height: var(--min-height);
-  height: 100vh;
   background-image: var(--cover-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -13,7 +12,7 @@
   position: relative;
   display: grid;
   gap: var(--page-gap);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
   grid-template-areas: "header" "main" "footer";
   background-color: var(--background-color);
 }
@@ -22,7 +21,8 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-areas: "menu" "title" "article";
-  block-size: max(var(--min-height), 100vh);
+  block-size: 100vh ;
+  min-block-size:  var(--min-height);
   inline-size: 100%;
   grid-area: header;
   position: relative;
@@ -527,7 +527,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--menu-button-color);
+  border: 1px solid var(--button-hover-color) ;
 }
 
 .useful_link:focus {

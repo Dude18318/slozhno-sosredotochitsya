@@ -19,6 +19,7 @@
   --subheader-color: #353430;
   --background-color: #fff1f7;
   --button-border: 1px solid #353430;
+  --button-hover-color:rgba(50, 49, 45, 0.4);
   .decorative_tag {
       display: none;
   }
@@ -35,6 +36,7 @@
       --button-border: 1px solid #353430;
       --subheader-color: #353430;
       --background-color: #fff1f7;
+      --button-hover-color:rgba(50, 49, 45, 0.4);
   }
   .page.theme_auto {
       .decorative_tag {
