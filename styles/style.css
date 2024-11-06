@@ -22,7 +22,7 @@
   grid-template-rows: 1fr min-content 1fr;
   grid-template-areas: "menu" "title" "article";
   block-size: 100vh ;
-  min-block-size:  var(--min-height);
+  min-block-size:  668px;
   inline-size: 100%;
   grid-area: header;
   position: relative;
@@ -498,7 +498,7 @@
 
 .footer {
   position: relative;
-  block-size: max(var(--min-height), 100vh);
+  block-size: max( 668px, 100vh);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -516,6 +516,10 @@
   line-height: var(--header-title-line-height);
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid var(--button-hover-color) ;
+}
+
 .header__theme-menu-button:focus {
   outline: none;
   border-bottom: 1px solid var(--menu-button-color);
@@ -524,10 +528,6 @@
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--menu-button-color);
-}
-
-.header__theme-menu-button:hover {
-  border: 1px solid var(--button-hover-color) ;
 }
 
 .useful_link:focus {
